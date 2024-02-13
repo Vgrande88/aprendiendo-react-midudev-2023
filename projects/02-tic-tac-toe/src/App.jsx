@@ -38,6 +38,7 @@ function App() {
       board: newBoard,
       turn: newTurn,
     })
+    
     const newWinner = checkWinner(newBoard)
     if (newWinner) {
       //alert(`El Ganador es: ${newWinner}`)
